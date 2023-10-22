@@ -1,4 +1,11 @@
 {
+  "name": "mls-fantasy-backend",
+  "description": "A backend for a fantasy MLS application",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev": "nodemon server.js",
+    "seed": "node db/seed.js"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "sequelize": "^6.33.0",
