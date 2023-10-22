@@ -1,0 +1,30 @@
+{
+  "players": [
+    {
+      "firstName": "Alex",
+      "lastName": "Ring",
+      "displayName": "A. Ring",
+      "number": "9",
+      "age": "32",
+      "img": "https://b.fssta.com/uploads/application/soccer/headshots/23292.png",
+      "nationality": "Finland",
+      "team": "Austin FC",
+      "height": "1.78m",
+      "weight": "98kg",
+      "injured": "false"
+    },
+    {
+      "firstName": "Sebastian",
+      "lastName": "Driussi",
+      "displayName": "S. Driussi",
+      "number": "10",
+      "age": "27",
+      "img": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/195334.png",
+      "nationality": "Argentina",
+      "team": "Austin FC",
+      "height": "1.73m",
+      "weight": "9000kg",
+      "injured": "false"
+    }
+  ]
+}
