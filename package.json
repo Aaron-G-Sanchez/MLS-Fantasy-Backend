@@ -2,7 +2,7 @@
   "name": "mls-fantasy-backend",
   "description": "A backend for a fantasy MLS application",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --runInBand --watchAll",
     "dev": "nodemon server.js",
     "seed": "node db/seed.js"
   },

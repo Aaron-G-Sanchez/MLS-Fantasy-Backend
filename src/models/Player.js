@@ -14,6 +14,4 @@ const Player = db.define('Player', {
   injured: DataTypes.BOOLEAN
 })
 
-module.exports = {
-  Player
-}
+module.exports = Player

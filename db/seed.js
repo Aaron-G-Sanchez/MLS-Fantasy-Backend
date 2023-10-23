@@ -1,14 +1,16 @@
-const { Player } = require('../src/models')
+const { Player, User } = require('../src/models')
 const { db } = require('./connection')
-const data = require('./demoPlayerData.json')
+const playerData = require('./data/demoPlayerData.json')
+const userData = require('./data/demoUserData.json')
 
-const seedDb = async () => {
+const seedSync = async () => {
   // console.log(data.players)
-  await db.sync()
-  await Player.bulkCreate(data.players)
-  console.log('Seed has been planted')
+  await db.sync({ force: true })
+  await Player.bulkCreate(playerData.players)
+  await User.bulkCreate(userData.users)
+  // console.log('Seed has been planted')
 }
 
-seedDb()
+// seedDb()
 
-// module.exports = seedDb
+module.exports = seedSync

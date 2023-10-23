@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "username": "CYCLE",
+      "email": "cycle@gmail.com",
+      "password": "test123"
+    },
+    {
+      "username": "OPAL",
+      "email": "opal@gmail.com",
+      "password": "123Test"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
-const { Player } = require('./Player')
+const Player = require('./Player')
+const User = require('./User')
 
 module.exports = {
-  Player
+  Player,
+  User
 }
