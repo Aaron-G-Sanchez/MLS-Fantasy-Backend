@@ -1,6 +1,7 @@
 const { db, DataTypes } = require('../../db/connection')
 
 const Player = db.define('Player', {
+  apiId: DataTypes.INTEGER,
   firstName: DataTypes.STRING,
   lastName: DataTypes.STRING,
   displayName: DataTypes.STRING,
@@ -11,7 +12,8 @@ const Player = db.define('Player', {
   team: DataTypes.STRING,
   height: DataTypes.INTEGER,
   weight: DataTypes.INTEGER,
-  injured: DataTypes.BOOLEAN
+  injured: DataTypes.BOOLEAN,
+  position: DataTypes.STRING
 })
 
 module.exports = Player

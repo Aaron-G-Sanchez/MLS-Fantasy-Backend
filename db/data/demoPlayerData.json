@@ -1,6 +1,7 @@
 {
   "players": [
     {
+      "apiId": 1099,
       "firstName": "Alex",
       "lastName": "Ring",
       "displayName": "A. Ring",
@@ -11,9 +12,11 @@
       "team": "Austin FC",
       "height": "1.78m",
       "weight": "98kg",
-      "injured": "false"
+      "injured": "false",
+      "position": "Midfielder"
     },
     {
+      "apiId": 1100,
       "firstName": "Sebastian",
       "lastName": "Driussi",
       "displayName": "S. Driussi",
@@ -24,7 +27,8 @@
       "team": "Austin FC",
       "height": "1.73m",
       "weight": "9000kg",
-      "injured": "false"
+      "injured": "false",
+      "position": "Midfielder"
     }
   ]
 }
