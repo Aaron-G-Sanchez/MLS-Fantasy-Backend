@@ -11,7 +11,7 @@ const seedSync = async () => {
   const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': "6a563d7cf3msh4c701a8a48ee5fcp122fa8jsne2418614c152",
+      'X-RapidAPI-Key': process.env.TOKEN,
       'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
     }
   };
